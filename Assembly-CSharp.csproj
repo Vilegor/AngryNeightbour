@@ -63,14 +63,21 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Code\AngryGame\Data\HouseSkinType.cs" />
     <Compile Include="Assets\Code\AngryGame\Data\NeighbourData.cs" />
     <Compile Include="Assets\Code\AngryGame\GameHouseLogic.cs" />
-    <Compile Include="Assets\Code\FakeServerLogic\FakeServerController.cs" />
-    <Compile Include="Assets\Code\FakeServerLogic\GameSessionController.cs" />
-    <Compile Include="Assets\Code\ServerCommunication\Data\GameDataResponseDTO.cs" />
-    <Compile Include="Assets\Code\ServerCommunication\Data\PlayerDTO.cs" />
-    <Compile Include="Assets\Code\ServerCommunication\IGameServerController.cs" />
+    <Compile Include="Assets\Code\ServerLogic\Data\GameActionCooldownDTO.cs" />
+    <Compile Include="Assets\Code\ServerLogic\Data\GameActionDTO.cs" />
+    <Compile Include="Assets\Code\ServerLogic\Data\GameActionType.cs" />
+    <Compile Include="Assets\Code\ServerLogic\Data\GameHouseColorCode.cs" />
+    <Compile Include="Assets\Code\ServerLogic\Data\GameHouseDTO.cs" />
+    <Compile Include="Assets\Code\ServerLogic\Data\GameHouseSkinType.cs" />
+    <Compile Include="Assets\Code\ServerLogic\Data\GameLayoutType.cs" />
+    <Compile Include="Assets\Code\ServerLogic\Data\GameMode.cs" />
+    <Compile Include="Assets\Code\ServerLogic\Data\GamePlayerDTO.cs" />
+    <Compile Include="Assets\Code\ServerLogic\Data\GameStateDTO.cs" />
+    <Compile Include="Assets\Code\ServerLogic\FakeServerController.cs" />
+    <Compile Include="Assets\Code\ServerLogic\GameSessionController.cs" />
+    <Compile Include="Assets\Code\ServerLogic\IGameServerController.cs" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />

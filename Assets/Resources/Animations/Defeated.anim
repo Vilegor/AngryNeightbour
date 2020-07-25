@@ -786,7 +786,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: m_Color.r
+    attribute: material._Color.r
     path: HouseImage
     classID: 212
     script: {fileID: 0}
@@ -886,7 +886,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: m_Color.g
+    attribute: material._Color.g
     path: HouseImage
     classID: 212
     script: {fileID: 0}
@@ -986,7 +986,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: m_Color.b
+    attribute: material._Color.b
     path: HouseImage
     classID: 212
     script: {fileID: 0}
@@ -1086,7 +1086,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: m_Color.a
+    attribute: material._Color.a
     path: HouseImage
     classID: 212
     script: {fileID: 0}
@@ -1184,24 +1184,24 @@ AnimationClip:
       isPPtrCurve: 0
     - serializedVersion: 2
       path: 1323988666
-      attribute: 2526845255
+      attribute: 1303350129
       script: {fileID: 0}
       typeID: 212
-      customType: 0
+      customType: 22
       isPPtrCurve: 0
     - serializedVersion: 2
       path: 1323988666
-      attribute: 4215373228
+      attribute: 1571785585
       script: {fileID: 0}
       typeID: 212
-      customType: 0
+      customType: 22
       isPPtrCurve: 0
     - serializedVersion: 2
       path: 1323988666
-      attribute: 2334886179
+      attribute: 1840221041
       script: {fileID: 0}
       typeID: 212
-      customType: 0
+      customType: 22
       isPPtrCurve: 0
     - serializedVersion: 2
       path: 1303067493
@@ -1233,10 +1233,10 @@ AnimationClip:
       isPPtrCurve: 0
     - serializedVersion: 2
       path: 1323988666
-      attribute: 304273561
+      attribute: 2108656497
       script: {fileID: 0}
       typeID: 212
-      customType: 0
+      customType: 22
       isPPtrCurve: 0
     pptrCurveMapping: []
   m_AnimationClipSettings:
@@ -2029,7 +2029,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: m_Color.r
+    attribute: material._Color.r
     path: HouseImage
     classID: 212
     script: {fileID: 0}
@@ -2129,7 +2129,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: m_Color.g
+    attribute: material._Color.g
     path: HouseImage
     classID: 212
     script: {fileID: 0}
@@ -2229,7 +2229,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: m_Color.b
+    attribute: material._Color.b
     path: HouseImage
     classID: 212
     script: {fileID: 0}
@@ -2329,7 +2329,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: m_Color.a
+    attribute: material._Color.a
     path: HouseImage
     classID: 212
     script: {fileID: 0}

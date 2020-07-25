@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using Code.AngryGame.Data;
+using Code.ServerLogic.Data;
 using TMPro;
 using UnityEngine;
 using Random = UnityEngine.Random;
@@ -18,7 +19,7 @@ namespace Code.AngryGame
         // initial data
         private int _gridPosIndex;
         private int _startLevel;
-        private HouseSkinType _skinType;
+        private GameHouseSkinType _skinType;
         private List<NeighbourData> _neighbourList;
         private bool _isPlayersHouse;
 
@@ -35,10 +36,10 @@ namespace Code.AngryGame
             _animator = GetComponent<Animator>();
 
             // test
-            Setup(0, 5, HouseSkinType.Farm, new List<NeighbourData>());
+            Setup(0, 5, GameHouseSkinType.Farm, new List<NeighbourData>());
         }
 
-        public void Setup(int gridPosIndex, int startLevel, HouseSkinType skinType, List<NeighbourData> neighbourList, bool isPlayersHouse = false)
+        public void Setup(int gridPosIndex, int startLevel, GameHouseSkinType skinType, List<NeighbourData> neighbourList, bool isPlayersHouse = false)
         {
             _gridPosIndex = gridPosIndex;
             _startLevel = startLevel;
@@ -49,29 +50,29 @@ namespace Code.AngryGame
             SetHouseSkin(skinType);
         }
 
-        private void SetHouseSkin(HouseSkinType skinType)
+        private void SetHouseSkin(GameHouseSkinType skinType)
         {
             _skinType = skinType;
             Sprite newHouseSprite;
 
             switch (skinType)
             {
-                case HouseSkinType.Farm:
+                case GameHouseSkinType.Farm:
                     newHouseSprite = Resources.Load<Sprite>("Houses/farm_house");
                     break;
-                case HouseSkinType.Diagonal:
+                case GameHouseSkinType.Diagonal:
                     newHouseSprite = Resources.Load<Sprite>("Houses/diagonal_house");
                     break;
-                case HouseSkinType.Love:
+                case GameHouseSkinType.Love:
                     newHouseSprite = Resources.Load<Sprite>("Houses/love_house");
                     break;
-                case HouseSkinType.Rusty:
+                case GameHouseSkinType.Rusty:
                     newHouseSprite = Resources.Load<Sprite>("Houses/rusty_house");
                     break;
-                case HouseSkinType.Modern:
+                case GameHouseSkinType.Modern:
                     newHouseSprite = Resources.Load<Sprite>("Houses/modern_house");
                     break;
-                case HouseSkinType.High:
+                case GameHouseSkinType.High:
                     newHouseSprite = Resources.Load<Sprite>("Houses/high_house");
                     break;
                 default:
